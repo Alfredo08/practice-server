@@ -1,0 +1,22 @@
+{
+  "name": "practice-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha --require test/app.test.js",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "chai": "^4.2.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "knex": "^0.21.6",
+    "mocha": "^8.2.1",
+    "node-fetch": "^2.6.1",
+    "pg": "^8.4.1"
+  }
+}
